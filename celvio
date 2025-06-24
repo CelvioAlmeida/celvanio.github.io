@@ -51,7 +51,7 @@
     <section id="desenhos">
       <h2>📺 Comprar Desenhos Animados</h2>
       <div class="grid">
-        <!-- Turbo Luz Kids -->
+        <!-- Turbo Luz Kids>url(../../Videos/snaptube/ChatGPT Image 23_06_2025, 18_57_02.png)
         <div class="card">
           <img src="71389949-8bf9-4bd7-938d-e9e1b5c38c2d.png" alt="Turbo Luz Kids"/>
           <h3>Turbo Luz Kids</h3>
@@ -61,7 +61,7 @@
           <button onclick="window.open('https://buy.stripe.com/test_TurboLuzKids_EURO')">Stripe (€)</button>
           <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
         </div>
-        <!-- Turbo Luz -->
+        <!-- Turbo Luz -->url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_49.png)
         <div class="card">
           <img src="ChatGPT Image 24_06_2025, 19_52_49.png" alt="Turbo Luz"/>
           <h3>Turbo Luz</h3>
@@ -71,7 +71,7 @@
           <button onclick="window.open('https://buy.stripe.com/test_TurboLuz_EURO')">Stripe (€)</button>
           <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
         </div>
-        <!-- Nia em New York -->
+        <!-- Nia em New York -->url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_31.png)
         <div class="card">
           <img src="ChatGPT Image 24_06_2025, 19_52_31.png" alt="Nia em New York"/>
           <h3>Nia em New York</h3>
@@ -81,17 +81,17 @@
           <button onclick="window.open('https://buy.stripe.com/test_NiaemNewYork_EURO')">Stripe (€)</button>
           <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
         </div>
-        <!-- Ende e Sten -->
+        <!-- Ende e Sten -->url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_27.png)
         <div class="card">
           <img src="https://via.placeholder.com/300x180?text=Ende+e+Sten" alt="Ende e Sten"/>
-          <h3>Ende e Sten</h3>
+          <h3>Ende e Sten</h3>url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_46.png)
           <p><strong>Preço:</strong> € 16,67</p>
           <p><strong>Direitos:</strong> € 555,56</p>
           <p><strong>2 Temporadas:</strong> € 444,44</p>
           <button onclick="window.open('https://buy.stripe.com/test_EndeeSten_EURO')">Stripe (€)</button>
           <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
         </div>
-        <!-- Olivia -->
+        <!-- Olivia -->url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_46.png)
         <div class="card">
           <img src="https://via.placeholder.com/300x180?text=Olivia" alt="Olivia"/>
           <h3>Olívia</h3>
@@ -101,10 +101,10 @@
           <button onclick="window.open('https://buy.stripe.com/test_Olivia_EURO')">Stripe (€)</button>
           <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
         </div>
-        <!-- Ana e Júnior -->
+        <!-- Ana e Júnior -->url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_45.png)
         <div class="card">
           <img src="https://via.placeholder.com/300x180?text=Ana+e+Júnior" alt="Ana e Júnior"/>
-          <h3>Ana e Júnior</h3>
+          <h3>Ana e Júnior</h3> image url(../../Videos/Gravações de Ecrã/ChatGPT Image 24_06_2025, 19_52_45.png)
           <p><strong>Preço:</strong> € 16,67</p>
           <p><strong>Direitos:</strong> € 555,56</p>
           <p><strong>2 Temporadas:</strong> € 444,44</p>
@@ -114,7 +114,7 @@
         <!-- First Part of the Mystery -->
         <div class="card">
           <img src="https://via.placeholder.com/300x180?text=First+Part+of+the+Mystery" alt="First Part of the Mystery"/>
-          <h3>First Part of the Mystery</h3>
+          <h3>First Part of the Mystery</h3> image url(../../Videos/Gravações de Ecrã/Captura Web_21-6-2025_12320_sdmntprwestus2.oaiusercontent.com.jpeg)
           <p><strong>Preço:</strong> € 16,67</p>
           <p><strong>Direitos:</strong> € 555,56</p>
           <p><strong>2 Temporadas:</strong> € 444,44</p>
@@ -150,7 +150,7 @@
   <footer>
     <p>© 2025 Cêlvanio Studios. Loja de Desenhos Animados criada por Celvio Almeida com apoio de ChatGPT, OpenAI, Hemenegildo António, Ezequiel Francisco, Daniela António Almeida.</p>
     <p>🌐 Site Oficial: <a href="https://celvanio.github.io" target="_blank" style="color:lightblue;">https://celvanio.github.io</a></p>
-    <p class="legal">NINGUÉM PODE FAZER UMA VERSÃO DOS MEUS DESENHOS ANIMADOS SEM TER LICENÇA OU SERÁ PUNIDO.</p>
+    <p class="legal">TENS DE TER LINCENÇA PARA PODER FAZER UMA VERSÃO DOS DESENHOS ANIMADOS SEM TER LICENÇA OU SERÁ PUNIDO.</p>
   </footer>
 </body>
 </html>
