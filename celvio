@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cêlvanio – Loja Oficial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; display: flex; }
+    nav { background:#111; color:white; width:250px; padding:20px; box-sizing:border-box; min-height:100vh; }
+    nav h2 { margin-top:0; }
+    nav a { display:block; color:white; text-decoration:none; margin:10px 0; padding:8px; border-radius:5px; background:#222; }
+    nav a:hover { background:#444; }
+    main { flex:1; background:#f5f5f5; padding:2rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; margin-bottom:2rem; }
+    .card { background:#fff; border-radius:10px; box-shadow:0 0 8px rgba(0,0,0,0.1); padding:15px; }
+    .card img { width:100%; height:180px; object-fit:cover; border-radius:8px; }
+    .card h3 { margin:10px 0 5px; }
+    .card p { margin:5px 0; }
+    button { margin:5px 5px 0 0; padding:10px 15px; background:#0070f3; color:white; border:none; border-radius:5px; cursor:pointer; }
+    button:hover { background:#0055aa; }
+    footer { background:#222; color:white; padding:1rem; text-align:center; }
+    footer p { margin:0.5rem 0; }
+    .legal { color:red; font-weight:bold; margin-top:1rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Cêlvanio</h2>
+    <a href="#trailers">🎞️ Ver Trailer</a>
+    <a href="#privacidade">🔐 Privacidade</a>
+    <a href="#info">ℹ️ Informação da Cêlvanio</a>
+    <a href="#filmes">🎬 Comprar Filmes</a>
+    <a href="#desenhos">📺 Comprar Desenhos Animados</a>
+  </nav>
+
+  <main>
+    <!-- Comprar Filmes -->
+    <section id="filmes">
+      <h2>🎬 Comprar Filmes</h2>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180?text=Rat+Man+O+Filme" alt="Rat Man O Filme"/>
+        <h3>Rat Man – O Filme</h3>
+        <p><strong>Filme Completo:</strong> € 133,33</p>
+        <p><strong>Direitos do Filme:</strong> € 555,56</p>
+        <button onclick="window.open('https://buy.stripe.com/test_RatManFilme')">Stripe (€)</button>
+        <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/555.56')">PayPal (€)</button>
+      </div>
+    </section>
+
+    <!-- Comprar Desenhos -->
+    <section id="desenhos">
+      <h2>📺 Comprar Desenhos Animados</h2>
+      <div class="grid">
+        <!-- Turbo Luz Kids -->
+        <div class="card">
+          <img src="71389949-8bf9-4bd7-938d-e9e1b5c38c2d.png" alt="Turbo Luz Kids"/>
+          <h3>Turbo Luz Kids</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_TurboLuzKids_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- Turbo Luz -->
+        <div class="card">
+          <img src="ChatGPT Image 24_06_2025, 19_52_49.png" alt="Turbo Luz"/>
+          <h3>Turbo Luz</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_TurboLuz_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- Nia em New York -->
+        <div class="card">
+          <img src="ChatGPT Image 24_06_2025, 19_52_31.png" alt="Nia em New York"/>
+          <h3>Nia em New York</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_NiaemNewYork_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- Ende e Sten -->
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=Ende+e+Sten" alt="Ende e Sten"/>
+          <h3>Ende e Sten</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_EndeeSten_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- Olivia -->
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=Olivia" alt="Olivia"/>
+          <h3>Olívia</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_Olivia_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- Ana e Júnior -->
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=Ana+e+Júnior" alt="Ana e Júnior"/>
+          <h3>Ana e Júnior</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_AnaeJunior_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- First Part of the Mystery -->
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=First+Part+of+the+Mystery" alt="First Part of the Mystery"/>
+          <h3>First Part of the Mystery</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_FirstPartoftheMystery_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+        <!-- Rat Man (desenho) -->
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=Rat+Man" alt="Rat Man"/>
+          <h3>Rat Man</h3>
+          <p><strong>Preço:</strong> € 16,67</p>
+          <p><strong>Direitos:</strong> € 555,56</p>
+          <p><strong>2 Temporadas:</strong> € 444,44</p>
+          <button onclick="window.open('https://buy.stripe.com/test_RatMan_EURO')">Stripe (€)</button>
+          <button onclick="window.open('https://www.paypal.com/paypalme/celvanio/16.67')">PayPal (€)</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="trailers">
+      <h2>🎞️ Trailer</h2>
+      <p>Veja os trailers dos desenhos animados no nosso canal oficial do YouTube.</p>
+    </section>
+    <section id="privacidade">
+      <h2>🔐 Privacidade</h2><p>Seus dados estão protegidos.</p>
+    </section>
+    <section id="info">
+      <h2>ℹ️ Informação da Cêlvanio</h2>
+      <p>Loja de Desenhos Animados criada por Celvio Almeida com apoio de ChatGPT, OpenAI, Hemenegildo António, Ezequiel Francisco, Daniela António Almeida.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cêlvanio Studios. Loja de Desenhos Animados criada por Celvio Almeida com apoio de ChatGPT, OpenAI, Hemenegildo António, Ezequiel Francisco, Daniela António Almeida.</p>
+    <p>🌐 Site Oficial: <a href="https://celvanio.github.io" target="_blank" style="color:lightblue;">https://celvanio.github.io</a></p>
+    <p class="legal">NINGUÉM PODE FAZER UMA VERSÃO DOS MEUS DESENHOS ANIMADOS SEM TER LICENÇA OU SERÁ PUNIDO.</p>
+  </footer>
+</body>
+</html>
